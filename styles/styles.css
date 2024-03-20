@@ -2,10 +2,16 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-bottom: 100px;
+    margin-bottom: 10px;
     background-color: aliceblue;
 }
-.canvas {
+#status {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+#canvas {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -41,6 +47,9 @@
         .four {
             border-left: none;
         }
+        .five {
+            background-color: aliceblue;
+        }
         .six {
             border-right: none;
             border-left: none;
@@ -64,7 +73,7 @@
     align-items: center;
     justify-content: center;
 }
-    .restart {
+    #restart {
         background-color: aliceblue;
         width: 60px;
         height: 30px;
